@@ -1,0 +1,24 @@
+"*":
+  core:
+    disabledPackages: [
+      "rails-snippets"
+      "vim-surround"
+      "activate-power-mode"
+    ]
+  editor:
+    fontSize: 12
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "270d6421-16ec-7cf4-6f26-48b493ec2b68"
+  fonts:
+    fontFamily: "Droid Sans Mono"
+    preview: "The Quick brown fox { 0 !== \"O\" }vcvxcvvxcv"
+  "tabs-to-spaces":
+    onSave: "untabify"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

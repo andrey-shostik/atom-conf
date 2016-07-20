@@ -1,0 +1,24 @@
+'.platform-win32, .platform-linux':
+  'ctrl-alt-n': 'tree-view:toggle-focus'
+
+'body':
+  'ctrl-t': 'application:new-file'
+
+'.platform-win32, .platform-linux':
+  'ctrl-n': 'nerd-treeview:toggle'
+
+'.platform-win32, .platform-linux':
+  'ctrl-n': 'tree-view:toggle'
+
+
+'.platform-linux atom-text-editor':
+  'alt-down': 'symbols-view:go-to-declaration'
+
+'.platform-linux atom-text-editor':
+  'alt-up': 'symbols-view:return-from-declaration'
+
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
